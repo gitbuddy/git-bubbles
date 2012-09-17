@@ -6,7 +6,7 @@ ubuntu 32bit, web server, apache2, or lighttpd , php5 and latest ffmpeg  binary,
 out the sub titles, and embed them into the html5 player after encoding has completed. 
 
 
-the idea behind bubbles is to only use bash,php,web,ffmpeg to create a automated transcoding server, for eample lets say
+the idea behind bubbles is to only use bash,php,ffmpeg to create a automated transcoding server, for eample lets say
 i want to download some latest news video from France, its in a mkv with subtitles and x264,  I normally download the torrent
 and when its complete, the torrent client for example supports scripting, basically fires a bash script to process the downloaded video
 strip the subtitles out, start the encoding to webm, and push to public folder, where a php script just reads and outputs the $file with a thumbnail. 

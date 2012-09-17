@@ -1,5 +1,4 @@
-bubbles has been coded to encode anything from a folder, from your bittorrent client and have them encoded to 
-Google's VP8 WebM. bubbles works on all html5 web browsers that support Html5 video tag
+bubbles has been coded to encode anything from your bittorrent downloads folder, you just need few linux binary tools
 
 currently the requirements are simple
 

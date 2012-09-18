@@ -40,5 +40,5 @@ if($content){
 <br>   
 
 <div class="progress progress-success">
-<div class="bar" style="width:<?php echo $progress;?>px"></div>
+<div class="bar" style="width:<?php echo $progress;?>%"></div>
     </div>

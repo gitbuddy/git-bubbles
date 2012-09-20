@@ -7,5 +7,14 @@ ffmpeg -i "$i" -vcodec libx264 -fpre "/usr/local/bin/libx264-ipod320.ffpreset" -
 
 sleep 5
 
-qt-faststart "$i".mp4 "$i".qt.mp4 && rm "$i" && "$i".mp4
+qt-faststart "$i".mp4 "$i".qt.mp4
+
+sleep 3
+
+rm "$i"
+
+sleep 3
+
+"$i".mp4
+
 done
